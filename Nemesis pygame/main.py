@@ -7,8 +7,8 @@ import pygame, random
 
  #- - - - - тут можно поменять разрешение
 divider_of_my_screen_resolution = 1 #то на сколько поделить 2880 и 1800 для высоты и ширины окна соответсвенно
-SCREEN_WIDTH = 2880 / divider_of_my_screen_resolution #1600/1.75 #1280
-SCREEN_HEIGHT = 1800 / divider_of_my_screen_resolution #2560/1.75 #720
+SCREEN_WIDTH = 1280 / divider_of_my_screen_resolution #1600/1.75 #1280
+SCREEN_HEIGHT = 720 / divider_of_my_screen_resolution #2560/1.75 #720
 FPS = 60
 #- - - - -
 
