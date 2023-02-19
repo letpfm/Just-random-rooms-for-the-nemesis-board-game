@@ -63,8 +63,8 @@ roomsXY = [((i[0] - 124) / 2632, i[1] / 1800) for i in roomsXY]
 dictionary_of_an_existing_one = {}
 
 class Interaction_obj(object):#класс двигающихся прямоугольников(картинок)
-    dragging = False #по дефолту не взято
-    """docstring for ClassName"""
+    dragging = False #по дефолту не взято - это нужно для перетаскивания объекта
+
     def __init__(self, file, h = SCREEN_HEIGHT/15, x = SCREEN_WIDTH/2, y = SCREEN_HEIGHT/2 - SCREEN_HEIGHT/15/4, stationary = False):
         self.stationary = stationary #по дефолту все подвижные 
         
