@@ -50,6 +50,10 @@ d_connectedness_room = {
 20:[17, 18],
 21:[16, 18]}
 
+#добавляю возможность перемещаться по техническим коридорам
+for i in [2, 4, 5, 9, 14, 15, 19, 21]:
+    d_connectedness_room[i] += [2, 4, 5, 9, 14, 15, 19, 21]
+
 radius_small_rooms = SCREEN_HEIGHT/15*1.2
 radius_big_rooms = SCREEN_HEIGHT/15*1.5
 cursor_height = SCREEN_HEIGHT/30
@@ -109,7 +113,7 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))#, pygame.FULLSCR
 #можно использовать ((SCREEN_WIDTH, SCREEN_HEIGHT), pygame.FULLSCREEN) чтоб на маке игра растянулась на весь экран, но от туда можно выбраться разве что через Command + Q – закрыть текущее приложение (аналог Alt + F4 в Windows) или [fn]+кнопка выкл.
 pygame. mouse. set_visible(False)
 
-pygame.display.set_caption("Nemesis by Egor Zyuzin")#от Зюзина Егора Алексеевича!
+pygame.display.set_caption("Nemesis by Egor Ziuzin")#от Зюзина Егора Алексеевича!
 
 background_image = pygame.image.load("img/Основное поле.jpg").convert()
 background_image_UP = pygame.image.load("img/Основное поле UP.png").convert_alpha()

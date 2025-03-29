@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <graph id="G">
+        <node id="n0" x="500" y="300" name="1" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n1" x="700" y="100" name="2" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n2" x="700" y="300" name="3" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n3" x="700" y="500" name="4" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n4" x="900" y="-100" name="5" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n5" x="900" y="100" name="6" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n6" x="900" y="300" name="7" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n7" x="900" y="500" name="8" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n8" x="900" y="700" name="9" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n9" x="1100" y="-100" name="10" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n10" x="1100" y="300" name="11" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n11" x="1100" y="700" name="12" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n12" x="1300" y="-100" name="13" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n13" x="1300" y="100" name="14" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n14" x="1300" y="500" name="15" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n15" x="1300" y="700" name="16" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n16" x="1500" y="100" name="17" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n17" x="1500" y="500" name="18" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n18" x="1700" y="-100" name="19" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n19" x="1700" y="300" name="20" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n20" x="1700" y="700" name="21" radius="20" fontSize="18" background="#ffffff" color="#000000" border="#000000"/>
+        <node id="n21" x="300" y="300" name="0" radius="20" fontSize="18" background="#f44336" color="#000000" border="#000000"/>
+        <edge id="e0" source="n3" target="n0" weight="4" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e1" source="n1" target="n0" weight="3" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e2" source="n0" target="n2" weight="12" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e3" source="n1" target="n5" weight="4" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e4" source="n5" target="n4" weight="3" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e5" source="n5" target="n6" weight="1" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e6" source="n2" target="n6" weight="34" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e7" source="n6" target="n7" weight="2" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e8" source="n3" target="n7" weight="1" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e9" source="n7" target="n8" weight="4" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e10" source="n10" target="n5" weight="2" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e11" source="n7" target="n10" weight="3" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e12" source="n4" target="n9" weight="12" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e13" source="n9" target="n12" weight="34" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e14" source="n12" target="n13" weight="1" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e15" source="n13" target="n10" weight="4" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e16" source="n8" target="n11" weight="12" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e17" source="n10" target="n14" weight="1" isDirected="false" controlStep="-14.14213562373095" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e18" source="n13" target="n16" weight="2" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e19" source="n18" target="n16" weight="1" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e20" source="n16" target="n19" weight="34" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e21" source="n19" target="n17" weight="12" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e22" source="n17" target="n20" weight="4" isDirected="false" controlStep="-14.14213562373095" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e23" source="n12" target="n18" weight="2" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e24" source="n15" target="n14" weight="2" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e25" source="n14" target="n17" weight="3" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e26" source="n11" target="n15" weight="34" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e27" source="n15" target="n20" weight="1" isDirected="false" controlStep="0" fontSize="18" lineWidth="2" background="#000000" color="#000000" />
+        <edge id="e28" source="n21" target="n3" weight="23" isDirected="false" controlStep="-11.231470779034339" fontSize="18" lineWidth="1" background="#f44336" color="#000000" />
+        <edge id="e29" source="n21" target="n1" weight="12" isDirected="false" controlStep="-28.297932321638843" fontSize="18" lineWidth="1" background="#f44336" color="#000000" />
+        <edge id="e30" source="n21" target="n18" weight="34" isDirected="false" controlStep="-592.0537472938184" fontSize="18" lineWidth="1" background="#f44336" color="#000000" />
+        <edge id="e31" source="n21" target="n20" weight="23" isDirected="false" controlStep="584.0592647099371" fontSize="18" lineWidth="1" background="#f44336" color="#000000" />
+        <edge id="e32" source="n8" target="n21" weight="3" isDirected="false" controlStep="-302.4104875940222" fontSize="18" lineWidth="1" background="#f44336" color="#000000" />
+        <edge id="e33" source="n4" target="n21" weight="4" isDirected="false" controlStep="280.984517350124" fontSize="18" lineWidth="1" background="#f44336" color="#000000" />
+        <edge id="e34" source="n13" target="n21" weight="3" isDirected="false" controlStep="448.69519384418186" fontSize="18" lineWidth="1" background="#f44336" color="#000000" />
+        <edge id="e35" source="n14" target="n21" weight="4" isDirected="false" controlStep="-450.2307547049938" fontSize="18" lineWidth="1" background="#f44336" color="#000000" />
+    </graph>
+</graphml>
